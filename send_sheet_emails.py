@@ -113,7 +113,6 @@ def build_email_body(recipient_email, sheet_name, html_table):
       <p>Please find your personalised data table below:</p>
       {html_table}
       <p style="color: #888; font-size: 12px;">
-        This email was generated automatically. Data source: {sheet_name}.
       </p>
     </body></html>
     """
